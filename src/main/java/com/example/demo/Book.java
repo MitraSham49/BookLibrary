@@ -37,11 +37,11 @@ public class Book {
 
 
     public void getDisplayText() {
-        System.out.println(getAuthor());
-        System.out.println(getTitle());
-        System.out.println(getIsbnNumber());
-         System.out.println(getYearOfPublication());
-        System.out.println(isInStock());
+        System.out.println("title='" + getTitle() + ", author='" +getAuthor() + ",  isbnNumber= " + getIsbnNumber()+ " , year Of Publication=" +", in library =" +isInStock() );
+       // System.out.println(getAuthor());
+       // System.out.println(getIsbnNumber());
+        // System.out.println(getYearOfPublication());
+       // System.out.println(isInStock());
  //System.out.println("Title ");
     }
     public void setTitle(String title) {

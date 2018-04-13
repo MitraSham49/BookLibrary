@@ -114,7 +114,7 @@ do {
 
 
             case 3: {
-                System.out.println(" Borrow a book , these book are in library");
+                System.out.println(" Borrow a book , these  are  list off  all the books are in library now ");
                 for (Book eachBooks : allbooks)  {
                   if (eachBooks.isInStock())
                         // System.out.print(eachBooks.getAuther()+" " +eachBooks.getTitle()+"  "+eachBooks.getDescription());
@@ -127,16 +127,16 @@ do {
 
                  for (Book eachbooks : allbooks){
                       if (eachbooks.getTitle().equals(name)) {
-                            eachbooks.setInStock(false);
 
+                            eachbooks.setInStock(false);
                       }
 
-                 }
+                    }
                 for (Book eachBooks : allbooks) {
                     if (eachBooks.isInStock())
 
-                    // System.out.print(eachBooks.getAuther()+" " +eachBooks.getTitle()+"  "+eachBooks.getDescription());
-                    eachBooks.getDisplayText();
+                        // System.out.print(eachBooks.getAuther()+" " +eachBooks.getTitle()+"  "+eachBooks.getDescription());
+                        eachBooks.getDisplayText();
                 }
 
             }
