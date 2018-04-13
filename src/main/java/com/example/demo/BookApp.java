@@ -117,8 +117,14 @@ do {
                 System.out.println(" Borrow a book , these  are  list off  all the books are in library now ");
                 for (Book eachBooks : allbooks)  {
                   if (eachBooks.isInStock())
+                  {
                         // System.out.print(eachBooks.getAuther()+" " +eachBooks.getTitle()+"  "+eachBooks.getDescription());
                     eachBooks.getDisplayText();
+                  }
+                    else{
+                      System.out.println(" no book to borrow");
+                      break;
+                  }
 //toy.setInStock(yesno.equalsIgnoreCase("yes")?true:false);
                 }
 
@@ -128,7 +134,7 @@ do {
                  for (Book eachbooks : allbooks){
                       if (eachbooks.getTitle().equals(name)) {
 
-                            eachbooks.setInStock(false);
+                          eachbooks.setInStock(false);
                       }
 
                     }
