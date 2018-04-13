@@ -123,7 +123,6 @@ do {
                   }
                     else{
                       System.out.println(" no book to borrow");
-                      break;
                   }
 //toy.setInStock(yesno.equalsIgnoreCase("yes")?true:false);
                 }
